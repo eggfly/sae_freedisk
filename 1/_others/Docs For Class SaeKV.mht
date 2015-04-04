@@ -1,0 +1,1442 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA5ILGjtOY=?=
+Subject: Docs For Class SaeKV
+Date: Tue, 24 Jan 2012 00:55:16 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CCDA32.D681C2F0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CCDA32.D681C2F0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://apidoc.sinaapp.com/sae/SaeKV.html
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" =
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML=20
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><!-- template designed by =
+Marco Von Ballmoos --><TITLE>Docs=20
+For Class SaeKV</TITLE><LINK rel=3D"stylesheet" =
+href=3D"http://apidoc.sinaapp.com/media/stylesheet.css">
+<META content=3D"text/html; charset=3DUTF-8" =
+http-equiv=3D"Content-Type">
+<SCRIPT>=0A=
+			var pkBaseURL =3D (("https:" =3D=3D document.location.protocol) ? =
+"https://wik.sinaapp.com/" : "http://wik.sinaapp.com/");=0A=
+			document.write(unescape("%3Cscript src=3D'" + pkBaseURL + "piwik.js' =
+type=3D'text/javascript'%3E%3C/script%3E"));=0A=
+=0A=
+			var piwikTracker =3D Piwik.getTracker(pkBaseURL + "piwik.php", 8);=0A=
+			piwikTracker.trackPageView();=0A=
+			piwikTracker.enableLinkTracking();=0A=
+			</SCRIPT>
+
+<META name=3D"GENERATOR" content=3D"MSHTML 9.00.8112.16440"></HEAD>
+<BODY>
+<DIV class=3D"page-body">
+<H2 class=3D"class-name">Class SaeKV</H2><A =
+name=3D"sec-description"></A>
+<DIV class=3D"info-box">
+<DIV class=3D"info-box-title">Description</DIV>
+<DIV class=3D"nav-bar"><SPAN class=3D"disabled">Description</SPAN> |
+															<A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-method-summary">Meth=
+ods</A>=20
+(<A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-methods">details</A>=
+)
+																	<A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-const-summary">Const=
+ants</A>=20
+(<A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-consts">details</A>)=
+
+									</DIV>
+<DIV class=3D"info-box-body"><!-- =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info =
+from phpDoc block =3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P class=3D"short-description">SAE KV =E6=9C=8D=E5=8A=A1 API</P>
+<P class=3D"description">
+<P>
+<DIV class=3D"src-code">
+<OL>
+  <LI>
+  <DIV class=3D"src-line"><SPAN =
+class=3D"src-php">&lt;?php</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN =
+class=3D"src-var">$kv&nbsp;</SPAN>=3D&nbsp;<SPAN=20
+  class=3D"src-key">new&nbsp;</SPAN><SPAN class=3D"src-id"><A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html">SaeKV</A></SPAN><SPAN=20
+  class=3D"src-sym">(</SPAN><SPAN class=3D"src-sym">)</SPAN><SPAN=20
+  class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line">&nbsp;</DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN=20
+  =
+class=3D"src-comm">//&nbsp;=E5=88=9D=E5=A7=8B=E5=8C=96SaeKV=E5=AF=B9=E8=B1=
+=A1</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN =
+class=3D"src-var">$ret&nbsp;</SPAN>=3D&nbsp;<SPAN=20
+  class=3D"src-var">$kv</SPAN><SPAN class=3D"src-sym">-&gt;</SPAN><A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#methodinit">init</A><SPA=
+N=20
+  class=3D"src-sym">(</SPAN><SPAN class=3D"src-sym">)</SPAN><SPAN=20
+  class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><A href=3D"http://www.php.net/var_dump"=20
+  target=3D"_blank">var_dump</A><SPAN class=3D"src-sym">(</SPAN><SPAN =
+class=3D"src-var">$ret</SPAN><SPAN=20
+  class=3D"src-sym">)</SPAN><SPAN class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line">&nbsp;</DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN=20
+  =
+class=3D"src-comm">//&nbsp;=E5=A2=9E=E5=8A=A0key-value</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN =
+class=3D"src-var">$ret&nbsp;</SPAN>=3D&nbsp;<SPAN=20
+  class=3D"src-var">$kv</SPAN><SPAN class=3D"src-sym">-&gt;</SPAN><A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#methodadd">add</A><SPAN =
+
+  class=3D"src-sym">(</SPAN><SPAN class=3D"src-str">'abc'</SPAN><SPAN =
+class=3D"src-sym">,&nbsp;</SPAN><SPAN=20
+  class=3D"src-str">'aaaaaa'</SPAN><SPAN class=3D"src-sym">)</SPAN><SPAN =
+class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><A href=3D"http://www.php.net/var_dump"=20
+  target=3D"_blank">var_dump</A><SPAN class=3D"src-sym">(</SPAN><SPAN =
+class=3D"src-var">$ret</SPAN><SPAN=20
+  class=3D"src-sym">)</SPAN><SPAN class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line">&nbsp;</DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN=20
+  =
+class=3D"src-comm">//&nbsp;=E6=9B=B4=E6=96=B0key-value</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN =
+class=3D"src-var">$ret&nbsp;</SPAN>=3D&nbsp;<SPAN=20
+  class=3D"src-var">$kv</SPAN><SPAN class=3D"src-sym">-&gt;</SPAN><A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#methodset">set</A><SPAN =
+
+  class=3D"src-sym">(</SPAN><SPAN class=3D"src-str">'abc'</SPAN><SPAN =
+class=3D"src-sym">,&nbsp;</SPAN><SPAN=20
+  class=3D"src-str">'bbbbbb'</SPAN><SPAN class=3D"src-sym">)</SPAN><SPAN =
+class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><A href=3D"http://www.php.net/var_dump"=20
+  target=3D"_blank">var_dump</A><SPAN class=3D"src-sym">(</SPAN><SPAN =
+class=3D"src-var">$ret</SPAN><SPAN=20
+  class=3D"src-sym">)</SPAN><SPAN class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line">&nbsp;</DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN=20
+  =
+class=3D"src-comm">//&nbsp;=E6=9B=BF=E6=8D=A2key-value</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN =
+class=3D"src-var">$ret&nbsp;</SPAN>=3D&nbsp;<SPAN=20
+  class=3D"src-var">$kv</SPAN><SPAN class=3D"src-sym">-&gt;</SPAN><A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#methodreplace">replace</=
+A><SPAN=20
+  class=3D"src-sym">(</SPAN><SPAN class=3D"src-str">'abc'</SPAN><SPAN =
+class=3D"src-sym">,&nbsp;</SPAN><SPAN=20
+  class=3D"src-str">'cccccc'</SPAN><SPAN class=3D"src-sym">)</SPAN><SPAN =
+class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><A href=3D"http://www.php.net/var_dump"=20
+  target=3D"_blank">var_dump</A><SPAN class=3D"src-sym">(</SPAN><SPAN =
+class=3D"src-var">$ret</SPAN><SPAN=20
+  class=3D"src-sym">)</SPAN><SPAN class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line">&nbsp;</DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN=20
+  =
+class=3D"src-comm">//&nbsp;=E8=8E=B7=E5=BE=97key-value</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN =
+class=3D"src-var">$ret&nbsp;</SPAN>=3D&nbsp;<SPAN=20
+  class=3D"src-var">$kv</SPAN><SPAN class=3D"src-sym">-&gt;</SPAN><A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#methodget">get</A><SPAN =
+
+  class=3D"src-sym">(</SPAN><SPAN class=3D"src-str">'abc'</SPAN><SPAN =
+class=3D"src-sym">)</SPAN><SPAN=20
+  class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><A href=3D"http://www.php.net/var_dump"=20
+  target=3D"_blank">var_dump</A><SPAN class=3D"src-sym">(</SPAN><SPAN =
+class=3D"src-var">$ret</SPAN><SPAN=20
+  class=3D"src-sym">)</SPAN><SPAN class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line">&nbsp;</DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN=20
+  =
+class=3D"src-comm">//&nbsp;=E5=88=A0=E9=99=A4key-value</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN =
+class=3D"src-var">$ret&nbsp;</SPAN>=3D&nbsp;<SPAN=20
+  class=3D"src-var">$kv</SPAN><SPAN class=3D"src-sym">-&gt;</SPAN><A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#methoddelete">delete</A>=
+<SPAN=20
+  class=3D"src-sym">(</SPAN><SPAN class=3D"src-str">'abc'</SPAN><SPAN =
+class=3D"src-sym">)</SPAN><SPAN=20
+  class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><A href=3D"http://www.php.net/var_dump"=20
+  target=3D"_blank">var_dump</A><SPAN class=3D"src-sym">(</SPAN><SPAN =
+class=3D"src-var">$ret</SPAN><SPAN=20
+  class=3D"src-sym">)</SPAN><SPAN class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line">&nbsp;</DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN=20
+  =
+class=3D"src-comm">//&nbsp;=E4=B8=80=E6=AC=A1=E8=8E=B7=E5=8F=96=E5=A4=9A=E4=
+=B8=AAkey-values</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN =
+class=3D"src-var">$keys&nbsp;</SPAN>=3D&nbsp;<SPAN=20
+  class=3D"src-key">array</SPAN><SPAN class=3D"src-sym">(</SPAN><SPAN =
+class=3D"src-sym">)</SPAN><SPAN=20
+  class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><A href=3D"http://www.php.net/array_push"=20
+  target=3D"_blank">array_push</A><SPAN class=3D"src-sym">(</SPAN><SPAN =
+class=3D"src-var">$keys</SPAN><SPAN=20
+  class=3D"src-sym">,&nbsp;</SPAN><SPAN =
+class=3D"src-str">'abc1'</SPAN><SPAN class=3D"src-sym">)</SPAN><SPAN=20
+  class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><A href=3D"http://www.php.net/array_push"=20
+  target=3D"_blank">array_push</A><SPAN class=3D"src-sym">(</SPAN><SPAN =
+class=3D"src-var">$keys</SPAN><SPAN=20
+  class=3D"src-sym">,&nbsp;</SPAN><SPAN =
+class=3D"src-str">'abc2'</SPAN><SPAN class=3D"src-sym">)</SPAN><SPAN=20
+  class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><A href=3D"http://www.php.net/array_push"=20
+  target=3D"_blank">array_push</A><SPAN class=3D"src-sym">(</SPAN><SPAN =
+class=3D"src-var">$keys</SPAN><SPAN=20
+  class=3D"src-sym">,&nbsp;</SPAN><SPAN =
+class=3D"src-str">'abc3'</SPAN><SPAN class=3D"src-sym">)</SPAN><SPAN=20
+  class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN =
+class=3D"src-var">$ret&nbsp;</SPAN>=3D&nbsp;<SPAN=20
+  class=3D"src-var">$kv</SPAN><SPAN class=3D"src-sym">-&gt;</SPAN><A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#methodmget">mget</A><SPA=
+N=20
+  class=3D"src-sym">(</SPAN><SPAN class=3D"src-var">$keys</SPAN><SPAN =
+class=3D"src-sym">)</SPAN><SPAN=20
+  class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><A href=3D"http://www.php.net/var_dump"=20
+  target=3D"_blank">var_dump</A><SPAN class=3D"src-sym">(</SPAN><SPAN =
+class=3D"src-var">$ret</SPAN><SPAN=20
+  class=3D"src-sym">)</SPAN><SPAN class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line">&nbsp;</DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN=20
+  =
+class=3D"src-comm">//&nbsp;=E5=89=8D=E7=BC=80=E8=8C=83=E5=9B=B4=E6=9F=A5=E6=
+=89=BEkey-values</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN =
+class=3D"src-var">$ret&nbsp;</SPAN>=3D&nbsp;<SPAN=20
+  class=3D"src-var">$kv</SPAN><SPAN class=3D"src-sym">-&gt;</SPAN><A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#methodpkrget">pkrget</A>=
+<SPAN=20
+  class=3D"src-sym">(</SPAN><SPAN class=3D"src-str">'abc'</SPAN><SPAN =
+class=3D"src-sym">,&nbsp;</SPAN><SPAN=20
+  class=3D"src-num">3</SPAN><SPAN class=3D"src-sym">)</SPAN><SPAN=20
+  class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><A href=3D"http://www.php.net/var_dump"=20
+  target=3D"_blank">var_dump</A><SPAN class=3D"src-sym">(</SPAN><SPAN =
+class=3D"src-var">$ret</SPAN><SPAN=20
+  class=3D"src-sym">)</SPAN><SPAN class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line">&nbsp;</DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN=20
+  =
+class=3D"src-comm">//&nbsp;=E5=BE=AA=E7=8E=AF=E8=8E=B7=E5=8F=96=E6=89=80=E6=
+=9C=89key-values</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN =
+class=3D"src-var">$ret&nbsp;</SPAN>=3D&nbsp;<SPAN=20
+  class=3D"src-var">$kv</SPAN><SPAN class=3D"src-sym">-&gt;</SPAN><A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#methodpkrget">pkrget</A>=
+<SPAN=20
+  class=3D"src-sym">(</SPAN><SPAN class=3D"src-str">''</SPAN><SPAN=20
+  class=3D"src-sym">,&nbsp;</SPAN><SPAN =
+class=3D"src-num">100</SPAN><SPAN class=3D"src-sym">)</SPAN><SPAN=20
+  class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN =
+class=3D"src-key">while&nbsp;</SPAN><SPAN =
+class=3D"src-sym">(</SPAN><SPAN=20
+  class=3D"src-id">true</SPAN><SPAN =
+class=3D"src-sym">)&nbsp;</SPAN><SPAN =
+class=3D"src-sym">{</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line">&nbsp;&nbsp;&nbsp;<A =
+href=3D"http://www.php.net/var_dump"=20
+  target=3D"_blank">var_dump</A><SPAN class=3D"src-sym">(</SPAN><SPAN =
+class=3D"src-var">$ret</SPAN><SPAN=20
+  class=3D"src-sym">)</SPAN><SPAN class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line">&nbsp;&nbsp;&nbsp;<A =
+href=3D"http://www.php.net/end"=20
+  target=3D"_blank">end</A><SPAN class=3D"src-sym">(</SPAN><SPAN=20
+  class=3D"src-var">$ret</SPAN><SPAN class=3D"src-sym">)</SPAN><SPAN=20
+  class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line">&nbsp;&nbsp;&nbsp;<SPAN=20
+  class=3D"src-var">$start_key&nbsp;</SPAN>=3D&nbsp;<A =
+href=3D"http://www.php.net/key"=20
+  target=3D"_blank">key</A><SPAN class=3D"src-sym">(</SPAN><SPAN=20
+  class=3D"src-var">$ret</SPAN><SPAN class=3D"src-sym">)</SPAN><SPAN=20
+  class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line">&nbsp;&nbsp;&nbsp;<SPAN=20
+  class=3D"src-var">$i&nbsp;</SPAN>=3D&nbsp;<A =
+href=3D"http://www.php.net/count"=20
+  target=3D"_blank">count</A><SPAN class=3D"src-sym">(</SPAN><SPAN=20
+  class=3D"src-var">$ret</SPAN><SPAN class=3D"src-sym">)</SPAN><SPAN=20
+  class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line">&nbsp;&nbsp;&nbsp;<SPAN=20
+  class=3D"src-key">if&nbsp;</SPAN><SPAN class=3D"src-sym">(</SPAN><SPAN =
+class=3D"src-var">$i&nbsp;</SPAN>&lt;&nbsp;<SPAN=20
+  class=3D"src-num">100</SPAN><SPAN =
+class=3D"src-sym">)&nbsp;</SPAN><SPAN =
+class=3D"src-key">break</SPAN><SPAN=20
+  class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line">&nbsp;&nbsp;&nbsp;<SPAN=20
+  class=3D"src-var">$ret&nbsp;</SPAN>=3D&nbsp;<SPAN =
+class=3D"src-var">$kv</SPAN><SPAN=20
+  class=3D"src-sym">-&gt;</SPAN><A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#methodpkrget">pkrget</A>=
+<SPAN=20
+  class=3D"src-sym">(</SPAN><SPAN class=3D"src-str">''</SPAN><SPAN=20
+  class=3D"src-sym">,&nbsp;</SPAN><SPAN =
+class=3D"src-num">100</SPAN><SPAN class=3D"src-sym">,&nbsp;</SPAN><SPAN=20
+  class=3D"src-var">$start_key</SPAN><SPAN =
+class=3D"src-sym">)</SPAN><SPAN class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN class=3D"src-sym">}</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line">&nbsp;</DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN =
+class=3D"src-comm">//&nbsp;=E8=8E=B7=E5=8F=96=E9=80=89=E9=A1=B9=E4=BF=A1=E6=
+=81=AF</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN =
+class=3D"src-var">$opts&nbsp;</SPAN>=3D&nbsp;<SPAN=20
+  class=3D"src-var">$kv</SPAN><SPAN class=3D"src-sym">-&gt;</SPAN><A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#methodget_options">get_o=
+ptions</A><SPAN=20
+  class=3D"src-sym">(</SPAN><SPAN class=3D"src-sym">)</SPAN><SPAN=20
+  class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><A href=3D"http://www.php.net/print_r"=20
+  target=3D"_blank">print_r</A><SPAN class=3D"src-sym">(</SPAN><SPAN=20
+  class=3D"src-var">$opts</SPAN><SPAN class=3D"src-sym">)</SPAN><SPAN =
+class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line">&nbsp;</DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN=20
+  =
+class=3D"src-comm">//&nbsp;=E8=AE=BE=E7=BD=AE=E9=80=89=E9=A1=B9=E4=BF=A1=E6=
+=81=AF&nbsp;(=E5=85=B3=E9=97=AD=E9=BB=98=E8=AE=A4urlencode&nbsp;key=E9=80=
+=89=E9=A1=B9)</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN =
+class=3D"src-var">$opts&nbsp;</SPAN>=3D&nbsp;<SPAN=20
+  class=3D"src-key">array</SPAN><SPAN class=3D"src-sym">(</SPAN><SPAN =
+class=3D"src-str">'encodekey'&nbsp;</SPAN>=3D&gt;&nbsp;<SPAN=20
+  class=3D"src-num">0</SPAN><SPAN class=3D"src-sym">)</SPAN><SPAN=20
+  class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><SPAN =
+class=3D"src-var">$ret&nbsp;</SPAN>=3D&nbsp;<SPAN=20
+  class=3D"src-var">$kv</SPAN><SPAN class=3D"src-sym">-&gt;</SPAN><A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#methodset_options">set_o=
+ptions</A><SPAN=20
+  class=3D"src-sym">(</SPAN><SPAN class=3D"src-var">$opts</SPAN><SPAN =
+class=3D"src-sym">)</SPAN><SPAN=20
+  class=3D"src-sym">;</SPAN></DIV></LI>
+  <LI>
+  <DIV class=3D"src-line"><A href=3D"http://www.php.net/var_dump"=20
+  target=3D"_blank">var_dump</A><SPAN class=3D"src-sym">(</SPAN><SPAN =
+class=3D"src-var">$ret</SPAN><SPAN=20
+  class=3D"src-sym">)</SPAN><SPAN =
+class=3D"src-sym">;</SPAN></DIV></LI></OL></DIV>
+<P></P>
+<P>=E9=94=99=E8=AF=AF=E4=BB=A3=E7=A0=81=E5=8F=8A=E9=94=99=E8=AF=AF=E6=8F=90=
+=E7=A4=BA=E6=B6=88=E6=81=AF=EF=BC=9A</P>
+<P>
+<UL>
+  <LI>0  "Success"</LI></UL>=20
+<UL>
+  <LI>10 "AccessKey Error"</LI>
+  <LI>20 "Failed to connect to KV Router Server"</LI>
+  <LI>21 "Get Info Error From KV Router Server"</LI>
+  <LI>22 "Invalid Info From KV Router Server"</LI></UL>=20
+<UL>
+  <LI>30 "KV Router Server Internal Error"</LI>
+  <LI>31 "KVDB Server is uninited"</LI>
+  <LI>32 "KVDB Server is not ready"</LI>
+  <LI>33 "App is banned"</LI>
+  <LI>34 "KVDB Server is closed"</LI>
+  <LI>35 "Unknown KV status"</LI></UL>=20
+<UL>
+  <LI>40 "Invalid Parameters"</LI>
+  <LI>41 "Interaction Error (%d) With KV DB Server"</LI>
+  <LI>42 "ResultSet Generation Error"</LI>
+  <LI>43 "Out Of Memory"</LI>
+  <LI>44 "SaeKV constructor was not called"</LI>
+  <LI>45 "Key does not exist"</LI></UL>
+<P></P>
+<P></P>
+<UL class=3D"tags">
+  <LI><SPAN class=3D"field">author:</SPAN> Chen Lei &lt;<A =
+href=3D"mailto:simpcl2008@gmail.com"=20
+  target=3D"_blank">simpcl2008@gmail.com</A>&gt;</LI>
+  <LI><SPAN class=3D"field">version:</SPAN> $Id$</LI></UL>
+<P class=3D"notes">			Located in <A class=3D"field" =
+href=3D"http://apidoc.sinaapp.com/sae/_saekv.class.php.html">/saekv.class=
+.php</A>=20
+(line <SPAN class=3D"field"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a103"=20
+target=3D"_blank">103</A></SPAN>)		</P><PRE></PRE></DIV></DIV><A =
+name=3D"sec-const-summary"></A>
+<DIV class=3D"info-box">
+<DIV class=3D"info-box-title">Class Constant Summary</DIV>
+<DIV class=3D"nav-bar"><A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-description">Descrip=
+tion</A>=20
+|						<SPAN class=3D"disabled">Constants</SPAN> (<A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-consts">details</A>)=
+
+										| 									<A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-method-summary">Meth=
+ods</A>=20
+(<A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-methods">details</A>=
+)
+												</DIV>
+<DIV class=3D"info-box-body">
+<DIV class=3D"const-summary">
+<DIV class=3D"const-title"><A class=3D"const-name" title=3D"details" =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#EMPTY_PREFIXKEY">EMPTY_P=
+REFIXKEY</A>=20
+=3D 					<SPAN class=3D"var-type"> ''</SPAN></DIV>
+<DIV class=3D"const-title"><A class=3D"const-name" title=3D"details" =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#MAX_KEY_LENGTH">MAX_KEY_=
+LENGTH</A>=20
+=3D 					<SPAN class=3D"var-type"> 200</SPAN></DIV>
+<DIV class=3D"const-title"><A class=3D"const-name" title=3D"details" =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#MAX_MGET_SIZE">MAX_MGET_=
+SIZE</A>=20
+=3D 					<SPAN class=3D"var-type"> 32</SPAN></DIV>
+<DIV class=3D"const-title"><A class=3D"const-name" title=3D"details" =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#MAX_PKRGET_SIZE">MAX_PKR=
+GET_SIZE</A>=20
+=3D 					<SPAN class=3D"var-type"> 100</SPAN></DIV>
+<DIV class=3D"const-title"><A class=3D"const-name" title=3D"details" =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#MAX_VALUE_LENGTH">MAX_VA=
+LUE_LENGTH</A>=20
+=3D 					<SPAN class=3D"var-type"> =
+4194304</SPAN></DIV></DIV></DIV></DIV><A =
+name=3D"sec-method-summary"></A>
+<DIV class=3D"info-box">
+<DIV class=3D"info-box-title">Method Summary</DIV>
+<DIV class=3D"nav-bar"><A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-description">Descrip=
+tion</A>=20
+|															<A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-const-summary">Const=
+ants</A>=20
+(<A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-consts">details</A>)=
+
+																<SPAN class=3D"disabled">Methods</SPAN> (<A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-methods">details</A>=
+)
+		</DIV>
+<DIV class=3D"info-box-body">
+<DIV class=3D"method-summary">
+<DIV class=3D"method-definition"><SPAN =
+class=3D"method-result">SaeKV</SPAN><A class=3D"method-name"=20
+title=3D"details"=20
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#__construct">__construct=
+</A>
+										()									</DIV>
+<DIV class=3D"method-definition"><SPAN =
+class=3D"method-result">bool</SPAN><A class=3D"method-name"=20
+title=3D"details" =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#add">add</A>
+											(<SPAN class=3D"var-type">string</SPAN>&nbsp;<SPAN=20
+class=3D"var-name">$key</SPAN>, <SPAN =
+class=3D"var-type">string</SPAN>&nbsp;<SPAN=20
+class=3D"var-name">$value</SPAN>)									</DIV>
+<DIV class=3D"method-definition"><SPAN =
+class=3D"method-result">bool</SPAN><A class=3D"method-name"=20
+title=3D"details"=20
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#delete">delete</A>
+											(<SPAN class=3D"var-type">string</SPAN>&nbsp;<SPAN=20
+class=3D"var-name">$key</SPAN>)									</DIV>
+<DIV class=3D"method-definition"><SPAN =
+class=3D"method-result">string</SPAN><A=20
+class=3D"method-name" title=3D"details" =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#errmsg">errmsg</A>
+										()									</DIV>
+<DIV class=3D"method-definition"><SPAN =
+class=3D"method-result">int</SPAN><A class=3D"method-name"=20
+title=3D"details" =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#errno">errno</A>
+										()									</DIV>
+<DIV class=3D"method-definition"><SPAN =
+class=3D"method-result">string|bool</SPAN><A=20
+class=3D"method-name" title=3D"details" =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#get">get</A>
+											(<SPAN class=3D"var-type">string</SPAN>&nbsp;<SPAN=20
+class=3D"var-name">$key</SPAN>)									</DIV>
+<DIV class=3D"method-definition"><SPAN =
+class=3D"method-result">array</SPAN><A class=3D"method-name"=20
+title=3D"details"=20
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#get_info">get_info</A>
+										()									</DIV>
+<DIV class=3D"method-definition"><SPAN =
+class=3D"method-result">array</SPAN><A class=3D"method-name"=20
+title=3D"details"=20
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#get_options">get_options=
+</A>
+										()									</DIV>
+<DIV class=3D"method-definition"><SPAN =
+class=3D"method-result">bool</SPAN><A class=3D"method-name"=20
+title=3D"details" =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#init">init</A>
+										()									</DIV>
+<DIV class=3D"method-definition"><SPAN =
+class=3D"method-result">array|bool</SPAN><A=20
+class=3D"method-name" title=3D"details" =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#mget">mget</A>
+											(<SPAN class=3D"var-type">array</SPAN>&nbsp;<SPAN=20
+class=3D"var-name">$ary</SPAN>)									</DIV>
+<DIV class=3D"method-definition"><SPAN =
+class=3D"method-result">array|bool</SPAN><A=20
+class=3D"method-name" title=3D"details" =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#pkrget">pkrget</A>
+											(<SPAN class=3D"var-type">string</SPAN>&nbsp;<SPAN=20
+class=3D"var-name">$prefix_key</SPAN>, <SPAN=20
+class=3D"var-type">int</SPAN>&nbsp;<SPAN =
+class=3D"var-name">$count</SPAN>, <SPAN=20
+class=3D"var-type">string</SPAN>&nbsp;<SPAN =
+class=3D"var-name">$start_key</SPAN>)
+									</DIV>
+<DIV class=3D"method-definition"><SPAN =
+class=3D"method-result">bool</SPAN><A class=3D"method-name"=20
+title=3D"details"=20
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#replace">replace</A>
+											(<SPAN class=3D"var-type">string</SPAN>&nbsp;<SPAN=20
+class=3D"var-name">$key</SPAN>, <SPAN =
+class=3D"var-type">string</SPAN>&nbsp;<SPAN=20
+class=3D"var-name">$value</SPAN>)									</DIV>
+<DIV class=3D"method-definition"><SPAN =
+class=3D"method-result">bool</SPAN><A class=3D"method-name"=20
+title=3D"details" =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#set">set</A>
+											(<SPAN class=3D"var-type">string</SPAN>&nbsp;<SPAN=20
+class=3D"var-name">$key</SPAN>, <SPAN =
+class=3D"var-type">string</SPAN>&nbsp;<SPAN=20
+class=3D"var-name">$value</SPAN>)									</DIV>
+<DIV class=3D"method-definition"><SPAN =
+class=3D"method-result">bool</SPAN><A class=3D"method-name"=20
+title=3D"details"=20
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#set_options">set_options=
+</A>
+											(<SPAN class=3D"var-type">array</SPAN>&nbsp;<SPAN=20
+class=3D"var-name">$options</SPAN>)									</DIV></DIV></DIV></DIV><A =
+name=3D"sec-methods"></A>
+<DIV class=3D"info-box">
+<DIV class=3D"info-box-title">Methods</DIV>
+<DIV class=3D"nav-bar"><A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-description">Descrip=
+tion</A>=20
+|																		<A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-const-summary">Const=
+ants</A>=20
+(<A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-consts">details</A>)=
+
+																	<A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-method-summary">Meth=
+ods</A>=20
+(<SPAN class=3D"disabled">details</SPAN>)								</DIV>
+<DIV class=3D"info-box-body"><A name=3D"method_detail"></A><A =
+id=3D"__construct" name=3D"method__construct"><!-- --></A>
+<DIV class=3D"evenrow">
+<DIV class=3D"method-header"><SPAN class=3D"method-title">Constructor=20
+__construct</SPAN> (line <SPAN class=3D"line-number"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a134"=20
+target=3D"_blank">134</A></SPAN>)	</DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info from phpDoc block =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P class=3D"short-description">=E6=9E=84=E9=80=A0=E5=87=BD=E6=95=B0</P>
+<DIV class=3D"method-signature"><SPAN =
+class=3D"method-result">SaeKV</SPAN><SPAN=20
+class=3D"method-name">			__construct		</SPAN>				()			</DIV></DIV><A =
+id=3D"add"=20
+name=3D"methodadd"><!-- --></A>
+<DIV class=3D"oddrow">
+<DIV class=3D"method-header"><SPAN class=3D"method-title">add</SPAN> =
+(line <SPAN=20
+class=3D"line-number"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a171"=20
+target=3D"_blank">171</A></SPAN>)	</DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info from phpDoc block =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P =
+class=3D"short-description">=E5=A2=9E=E5=8A=A0key-value=E5=AF=B9=EF=BC=8C=
+=E5=A6=82=E6=9E=9Ckey=E5=AD=98=E5=9C=A8=E5=88=99=E8=BF=94=E5=9B=9E=E5=A4=B1=
+=E8=B4=A5</P>
+<UL class=3D"tags">
+  <LI><SPAN class=3D"field">return:</SPAN> =
+=E6=88=90=E5=8A=9F=E8=BF=94=E5=9B=9Etrue=EF=BC=8C=E5=A4=B1=E8=B4=A5=E8=BF=
+=94=E5=9B=9Efalse</LI></UL>
+<DIV class=3D"method-signature"><SPAN =
+class=3D"method-result">bool</SPAN><SPAN=20
+class=3D"method-name">			add		</SPAN>					(<SPAN=20
+class=3D"var-type">string</SPAN>&nbsp;<SPAN =
+class=3D"var-name">$key</SPAN>, <SPAN=20
+class=3D"var-type">string</SPAN>&nbsp;<SPAN =
+class=3D"var-name">$value</SPAN>)
+			</DIV>
+<UL class=3D"parameters">
+  <LI><SPAN class=3D"var-type">string</SPAN><SPAN=20
+  class=3D"var-name">$key</SPAN><SPAN class=3D"var-description">:=20
+  =
+=E9=95=BF=E5=BA=A6=E5=B0=8F=E4=BA=8EMAX_KEY_LENGTH=E5=AD=97=E8=8A=82=EF=BC=
+=8C=E5=BD=93=E4=B8=8D=E8=AE=BE=E7=BD=AEencodekey=E9=80=89=E9=A1=B9=E6=97=B6=
+=EF=BC=8Ckey=E4=B8=AD=E4=B8=8D=E5=85=81=E8=AE=B8=E5=87=BA=E7=8E=B0=E9=9D=9E=
+=E5=8F=AF=E8=A7=81=E5=AD=97=E7=AC=A6</SPAN></LI>
+  <LI><SPAN class=3D"var-type">string</SPAN><SPAN=20
+  class=3D"var-name">$value</SPAN><SPAN class=3D"var-description">:=20
+  =
+=E9=95=BF=E5=BA=A6=E5=B0=8F=E4=BA=8EMAX_VALUE_LENGTH</SPAN></LI></UL></DI=
+V><A id=3D"delete" name=3D"methoddelete"><!-- --></A>
+<DIV class=3D"evenrow">
+<DIV class=3D"method-header"><SPAN class=3D"method-title">delete</SPAN> =
+(line <SPAN=20
+class=3D"line-number"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a190"=20
+target=3D"_blank">190</A></SPAN>)	</DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info from phpDoc block =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P class=3D"short-description">=E5=88=A0=E9=99=A4key-value</P>
+<UL class=3D"tags">
+  <LI><SPAN class=3D"field">return:</SPAN> =
+=E6=88=90=E5=8A=9F=E8=BF=94=E5=9B=9Etrue=EF=BC=8C=E5=A4=B1=E8=B4=A5=E8=BF=
+=94=E5=9B=9Efalse</LI></UL>
+<DIV class=3D"method-signature"><SPAN =
+class=3D"method-result">bool</SPAN><SPAN=20
+class=3D"method-name">			delete		</SPAN>					(<SPAN=20
+class=3D"var-type">string</SPAN>&nbsp;<SPAN =
+class=3D"var-name">$key</SPAN>)			</DIV>
+<UL class=3D"parameters">
+  <LI><SPAN class=3D"var-type">string</SPAN><SPAN=20
+  class=3D"var-name">$key</SPAN><SPAN class=3D"var-description">:=20
+  =
+=E9=95=BF=E5=BA=A6=E5=B0=8F=E4=BA=8EMAX_KEY_LENGTH=E5=AD=97=E8=8A=82</SPA=
+N></LI></UL></DIV><A id=3D"errmsg" name=3D"methoderrmsg"><!-- --></A>
+<DIV class=3D"oddrow">
+<DIV class=3D"method-header"><SPAN class=3D"method-title">errmsg</SPAN> =
+(line <SPAN=20
+class=3D"line-number"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a226"=20
+target=3D"_blank">226</A></SPAN>)	</DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info from phpDoc block =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P =
+class=3D"short-description">=E8=8E=B7=E5=BE=97=E9=94=99=E8=AF=AF=E6=8F=90=
+=E7=A4=BA=E6=B6=88=E6=81=AF</P>
+<UL class=3D"tags">
+  <LI><SPAN class=3D"field">return:</SPAN> =
+=E8=BF=94=E5=9B=9E=E9=94=99=E8=AF=AF=E6=8F=90=E7=A4=BA=E6=B6=88=E6=81=AF=E5=
+=AD=97=E7=AC=A6=E4=B8=B2</LI></UL>
+<DIV class=3D"method-signature"><SPAN =
+class=3D"method-result">string</SPAN><SPAN=20
+class=3D"method-name">			errmsg		</SPAN>				()			</DIV></DIV><A =
+id=3D"errno" name=3D"methoderrno"><!-- --></A>
+<DIV class=3D"evenrow">
+<DIV class=3D"method-header"><SPAN class=3D"method-title">errno</SPAN> =
+(line <SPAN=20
+class=3D"line-number"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a218"=20
+target=3D"_blank">218</A></SPAN>)	</DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info from phpDoc block =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P =
+class=3D"short-description">=E8=8E=B7=E5=BE=97=E9=94=99=E8=AF=AF=E4=BB=A3=
+=E7=A0=81</P>
+<UL class=3D"tags">
+  <LI><SPAN class=3D"field">return:</SPAN> =
+=E8=BF=94=E5=9B=9E=E9=94=99=E8=AF=AF=E4=BB=A3=E7=A0=81</LI></UL>
+<DIV class=3D"method-signature"><SPAN =
+class=3D"method-result">int</SPAN><SPAN class=3D"method-name">
+			errno		</SPAN>				()			</DIV></DIV><A id=3D"get" =
+name=3D"methodget"><!-- --></A>
+<DIV class=3D"oddrow">
+<DIV class=3D"method-header"><SPAN class=3D"method-title">get</SPAN> =
+(line <SPAN=20
+class=3D"line-number"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a151"=20
+target=3D"_blank">151</A></SPAN>)	</DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info from phpDoc block =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P =
+class=3D"short-description">=E8=8E=B7=E5=BE=97key=E5=AF=B9=E5=BA=94=E7=9A=
+=84value</P>
+<UL class=3D"tags">
+  <LI><SPAN class=3D"field">return:</SPAN> =
+=E6=88=90=E5=8A=9F=E8=BF=94=E5=9B=9Evalue=E5=80=BC=EF=BC=8C=E5=A4=B1=E8=B4=
+=A5=E8=BF=94=E5=9B=9Efalse</LI></UL>
+<DIV class=3D"method-signature"><SPAN=20
+class=3D"method-result">string|bool</SPAN><SPAN class=3D"method-name">			=
+get
+		</SPAN>					(<SPAN class=3D"var-type">string</SPAN>&nbsp;<SPAN=20
+class=3D"var-name">$key</SPAN>)			</DIV>
+<UL class=3D"parameters">
+  <LI><SPAN class=3D"var-type">string</SPAN><SPAN=20
+  class=3D"var-name">$key</SPAN><SPAN class=3D"var-description">:=20
+  =
+=E9=95=BF=E5=BA=A6=E5=B0=8F=E4=BA=8EMAX_KEY_LENGTH=E5=AD=97=E8=8A=82</SPA=
+N></LI></UL></DIV><A id=3D"get_info" name=3D"methodget_info"><!-- =
+--></A>
+<DIV class=3D"evenrow">
+<DIV class=3D"method-header"><SPAN =
+class=3D"method-title">get_info</SPAN> (line=20
+<SPAN class=3D"line-number"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a240"=20
+target=3D"_blank">240</A></SPAN>)	</DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info from phpDoc block =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P =
+class=3D"short-description">=E8=8E=B7=E5=BE=97kv=E4=BF=A1=E6=81=AF</P>
+<UL class=3D"tags">
+  <LI><SPAN class=3D"field">return:</SPAN> =
+=E8=BF=94=E5=9B=9Ekv=E4=BF=A1=E6=81=AF=E6=95=B0=E7=BB=84 array(2) {  =20
+  ["total_size"]=3D&gt;   int(49)   ["total_count"]=3D&gt;   int(1) =
+}</LI></UL>
+<DIV class=3D"method-signature"><SPAN =
+class=3D"method-result">array</SPAN><SPAN=20
+class=3D"method-name">			get_info		</SPAN>				()			</DIV></DIV><A =
+id=3D"get_options"=20
+name=3D"methodget_options"><!-- --></A>
+<DIV class=3D"oddrow">
+<DIV class=3D"method-header"><SPAN =
+class=3D"method-title">get_options</SPAN> (line=20
+<SPAN class=3D"line-number"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a252"=20
+target=3D"_blank">252</A></SPAN>)	</DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info from phpDoc block =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P =
+class=3D"short-description">=E8=8E=B7=E5=8F=96=E9=80=89=E9=A1=B9=E5=80=BC=
+</P>
+<UL class=3D"tags">
+  <LI><SPAN class=3D"field">return:</SPAN> =
+=E6=88=90=E5=8A=9F=E8=BF=94=E5=9B=9E=E9=80=89=E9=A1=B9=E6=95=B0=E7=BB=84=EF=
+=BC=8C=E5=A4=B1=E8=B4=A5=E8=BF=94=E5=9B=9Efalse array(1) {  =20
+  "encodekey" =3D&gt; 1 // =E9=BB=98=E8=AE=A4=E4=B8=BA1                  =
+  // 1:=20
+  =
+=E4=BD=BF=E7=94=A8urlencode=E7=BC=96=E7=A0=81key=EF=BC=9B0=EF=BC=9A=E4=B8=
+=8D=E4=BD=BF=E7=94=A8urlencode=E7=BC=96=E7=A0=81key }</LI></UL>
+<DIV class=3D"method-signature"><SPAN =
+class=3D"method-result">array</SPAN><SPAN=20
+class=3D"method-name">			get_options		</SPAN>				()			</DIV></DIV><A =
+id=3D"init"=20
+name=3D"methodinit"><!-- --></A>
+<DIV class=3D"evenrow">
+<DIV class=3D"method-header"><SPAN class=3D"method-title">init</SPAN> =
+(line <SPAN=20
+class=3D"line-number"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a142"=20
+target=3D"_blank">142</A></SPAN>)	</DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info from phpDoc block =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P class=3D"short-description">=E5=88=9D=E5=A7=8B=E5=8C=96Sae KV =
+=E6=9C=8D=E5=8A=A1</P>
+<DIV class=3D"method-signature"><SPAN =
+class=3D"method-result">bool</SPAN><SPAN=20
+class=3D"method-name">			init		</SPAN>				()			</DIV></DIV><A =
+id=3D"mget" name=3D"methodmget"><!-- --></A>
+<DIV class=3D"oddrow">
+<DIV class=3D"method-header"><SPAN class=3D"method-title">mget</SPAN> =
+(line <SPAN=20
+class=3D"line-number"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a199"=20
+target=3D"_blank">199</A></SPAN>)	</DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info from phpDoc block =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P =
+class=3D"short-description">=E6=89=B9=E9=87=8F=E8=8E=B7=E5=BE=97key-value=
+s</P>
+<UL class=3D"tags">
+  <LI><SPAN class=3D"field">return:</SPAN> =
+=E6=88=90=E5=8A=9F=E8=BF=94=E5=9B=9Ekey-value=E6=95=B0=E7=BB=84=EF=BC=8C=E5=
+=A4=B1=E8=B4=A5=E8=BF=94=E5=9B=9Efalse</LI></UL>
+<DIV class=3D"method-signature"><SPAN =
+class=3D"method-result">array|bool</SPAN><SPAN=20
+class=3D"method-name">			mget		</SPAN>					(<SPAN=20
+class=3D"var-type">array</SPAN>&nbsp;<SPAN =
+class=3D"var-name">$ary</SPAN>)			</DIV>
+<UL class=3D"parameters">
+  <LI><SPAN class=3D"var-type">array</SPAN><SPAN =
+class=3D"var-name">$ary</SPAN><SPAN=20
+  class=3D"var-description">:=20
+=E4=B8=80=E4=B8=AA=E5=8C=85=E5=90=AB=E5=A4=9A=E4=B8=AAkey=E7=9A=84=E6=95=B0=
+=E7=BB=84=EF=BC=8C=E6=95=B0=E7=BB=84=E9=95=BF=E5=BA=A6=E5=B0=8F=E4=BA=8E=E7=
+=AD=89=E4=BA=8EMAX_MGET_SIZE</SPAN></LI></UL></DIV><A id=3D"pkrget" =
+name=3D"methodpkrget"><!-- --></A>
+<DIV class=3D"evenrow">
+<DIV class=3D"method-header"><SPAN class=3D"method-title">pkrget</SPAN> =
+(line <SPAN=20
+class=3D"line-number"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a210"=20
+target=3D"_blank">210</A></SPAN>)	</DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info from phpDoc block =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P =
+class=3D"short-description">=E5=89=8D=E7=BC=80=E8=8C=83=E5=9B=B4=E6=9F=A5=
+=E6=89=BEkey-values</P>
+<UL class=3D"tags">
+  <LI><SPAN class=3D"field">return:</SPAN> =
+=E6=88=90=E5=8A=9F=E8=BF=94=E5=9B=9Ekey-value=E6=95=B0=E7=BB=84=EF=BC=8C=E5=
+=A4=B1=E8=B4=A5=E8=BF=94=E5=9B=9Efalse</LI></UL>
+<DIV class=3D"method-signature"><SPAN =
+class=3D"method-result">array|bool</SPAN><SPAN=20
+class=3D"method-name">			pkrget		</SPAN>					(<SPAN=20
+class=3D"var-type">string</SPAN>&nbsp;<SPAN =
+class=3D"var-name">$prefix_key</SPAN>,=20
+<SPAN class=3D"var-type">int</SPAN>&nbsp;<SPAN =
+class=3D"var-name">$count</SPAN>,=20
+<SPAN class=3D"var-type">string</SPAN>&nbsp;<SPAN=20
+class=3D"var-name">$start_key</SPAN>)			</DIV>
+<UL class=3D"parameters">
+  <LI><SPAN class=3D"var-type">string</SPAN><SPAN=20
+  class=3D"var-name">$prefix_key</SPAN><SPAN class=3D"var-description">: =
+
+  =
+=E5=89=8D=E7=BC=80=EF=BC=8C=E9=95=BF=E5=BA=A6=E5=B0=8F=E4=BA=8EMAX_KEY_LE=
+NGTH=E5=AD=97=E8=8A=82</SPAN></LI>
+  <LI><SPAN class=3D"var-type">int</SPAN><SPAN =
+class=3D"var-name">$count</SPAN><SPAN=20
+  class=3D"var-description">:=20
+=E5=89=8D=E7=BC=80=E6=9F=A5=E6=89=BE=E6=9C=80=E5=A4=A7=E8=BF=94=E5=9B=9E=E7=
+=9A=84key-values=E4=B8=AA=E6=95=B0=EF=BC=8C=E5=B0=8F=E4=BA=8E=E7=AD=89=E4=
+=BA=8EMAX_PKRGET_SIZE</SPAN></LI>
+  <LI><SPAN class=3D"var-type">string</SPAN><SPAN=20
+  class=3D"var-name">$start_key</SPAN><SPAN class=3D"var-description">:=20
+  =
+=E5=9C=A8=E6=89=A7=E8=A1=8C=E5=89=8D=E7=BC=80=E6=9F=A5=E6=89=BE=E6=97=B6=EF=
+=BC=8C=E8=BF=94=E5=9B=9E=E5=A4=A7=E4=BA=8E=E8=AF=A5$start_key=E7=9A=84key=
+-values=EF=BC=9B=E9=BB=98=E8=AE=A4=E5=80=BC=E4=B8=BA=E7=A9=BA=E5=AD=97=E7=
+=AC=A6=E4=B8=B2=EF=BC=88=E5=8D=B3=E5=BF=BD=E7=95=A5=E8=AF=A5=E5=8F=82=E6=95=
+=B0=EF=BC=89</SPAN></LI></UL></DIV><A=20
+id=3D"replace" name=3D"methodreplace"><!-- --></A>
+<DIV class=3D"oddrow">
+<DIV class=3D"method-header"><SPAN class=3D"method-title">replace</SPAN> =
+(line <SPAN=20
+class=3D"line-number"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a181"=20
+target=3D"_blank">181</A></SPAN>)	</DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info from phpDoc block =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P =
+class=3D"short-description">=E6=9B=BF=E6=8D=A2key=E5=AF=B9=E5=BA=94=E7=9A=
+=84value=EF=BC=8C=E5=A6=82=E6=9E=9Ckey=E4=B8=8D=E5=AD=98=E5=9C=A8=E5=88=99=
+=E8=BF=94=E5=9B=9E=E5=A4=B1=E8=B4=A5</P>
+<UL class=3D"tags">
+  <LI><SPAN class=3D"field">return:</SPAN> =
+=E6=88=90=E5=8A=9F=E8=BF=94=E5=9B=9Etrue=EF=BC=8C=E5=A4=B1=E8=B4=A5=E8=BF=
+=94=E5=9B=9Efalse</LI></UL>
+<DIV class=3D"method-signature"><SPAN =
+class=3D"method-result">bool</SPAN><SPAN=20
+class=3D"method-name">			replace		</SPAN>					(<SPAN=20
+class=3D"var-type">string</SPAN>&nbsp;<SPAN =
+class=3D"var-name">$key</SPAN>, <SPAN=20
+class=3D"var-type">string</SPAN>&nbsp;<SPAN =
+class=3D"var-name">$value</SPAN>)
+			</DIV>
+<UL class=3D"parameters">
+  <LI><SPAN class=3D"var-type">string</SPAN><SPAN=20
+  class=3D"var-name">$key</SPAN><SPAN class=3D"var-description">:=20
+  =
+=E9=95=BF=E5=BA=A6=E5=B0=8F=E4=BA=8EMAX_KEY_LENGTH=E5=AD=97=E8=8A=82=EF=BC=
+=8C=E5=BD=93=E4=B8=8D=E8=AE=BE=E7=BD=AEencodekey=E9=80=89=E9=A1=B9=E6=97=B6=
+=EF=BC=8Ckey=E4=B8=AD=E4=B8=8D=E5=85=81=E8=AE=B8=E5=87=BA=E7=8E=B0=E9=9D=9E=
+=E5=8F=AF=E8=A7=81=E5=AD=97=E7=AC=A6</SPAN></LI>
+  <LI><SPAN class=3D"var-type">string</SPAN><SPAN=20
+  class=3D"var-name">$value</SPAN><SPAN class=3D"var-description">:=20
+  =
+=E9=95=BF=E5=BA=A6=E5=B0=8F=E4=BA=8EMAX_VALUE_LENGTH</SPAN></LI></UL></DI=
+V><A id=3D"set"=20
+name=3D"methodset"><!-- --></A>
+<DIV class=3D"evenrow">
+<DIV class=3D"method-header"><SPAN class=3D"method-title">set</SPAN> =
+(line <SPAN=20
+class=3D"line-number"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a161"=20
+target=3D"_blank">161</A></SPAN>)	</DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info from phpDoc block =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P =
+class=3D"short-description">=E6=9B=B4=E6=96=B0key=E5=AF=B9=E5=BA=94=E7=9A=
+=84value</P>
+<UL class=3D"tags">
+  <LI><SPAN class=3D"field">return:</SPAN> =
+=E6=88=90=E5=8A=9F=E8=BF=94=E5=9B=9Etrue=EF=BC=8C=E5=A4=B1=E8=B4=A5=E8=BF=
+=94=E5=9B=9Efalse</LI></UL>
+<DIV class=3D"method-signature"><SPAN =
+class=3D"method-result">bool</SPAN><SPAN=20
+class=3D"method-name">			set		</SPAN>					(<SPAN=20
+class=3D"var-type">string</SPAN>&nbsp;<SPAN =
+class=3D"var-name">$key</SPAN>, <SPAN=20
+class=3D"var-type">string</SPAN>&nbsp;<SPAN =
+class=3D"var-name">$value</SPAN>)
+			</DIV>
+<UL class=3D"parameters">
+  <LI><SPAN class=3D"var-type">string</SPAN><SPAN=20
+  class=3D"var-name">$key</SPAN><SPAN class=3D"var-description">:=20
+  =
+=E9=95=BF=E5=BA=A6=E5=B0=8F=E4=BA=8EMAX_KEY_LENGTH=E5=AD=97=E8=8A=82=EF=BC=
+=8C=E5=BD=93=E4=B8=8D=E8=AE=BE=E7=BD=AEencodekey=E9=80=89=E9=A1=B9=E6=97=B6=
+=EF=BC=8Ckey=E4=B8=AD=E4=B8=8D=E5=85=81=E8=AE=B8=E5=87=BA=E7=8E=B0=E9=9D=9E=
+=E5=8F=AF=E8=A7=81=E5=AD=97=E7=AC=A6</SPAN></LI>
+  <LI><SPAN class=3D"var-type">string</SPAN><SPAN=20
+  class=3D"var-name">$value</SPAN><SPAN class=3D"var-description">:=20
+  =
+=E9=95=BF=E5=BA=A6=E5=B0=8F=E4=BA=8EMAX_VALUE_LENGTH</SPAN></LI></UL></DI=
+V><A id=3D"set_options" name=3D"methodset_options"><!-- --></A>
+<DIV class=3D"oddrow">
+<DIV class=3D"method-header"><SPAN =
+class=3D"method-title">set_options</SPAN> (line=20
+<SPAN class=3D"line-number"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a264"=20
+target=3D"_blank">264</A></SPAN>)	</DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info from phpDoc block =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P =
+class=3D"short-description">=E8=AE=BE=E7=BD=AE=E9=80=89=E9=A1=B9=E5=80=BC=
+</P>
+<UL class=3D"tags">
+  <LI><SPAN class=3D"field">return:</SPAN> =
+=E6=88=90=E5=8A=9F=E8=BF=94=E5=9B=9Etrue=EF=BC=8C=E5=A4=B1=E8=B4=A5=E8=BF=
+=94=E5=9B=9Efalse</LI></UL>
+<DIV class=3D"method-signature"><SPAN =
+class=3D"method-result">bool</SPAN><SPAN=20
+class=3D"method-name">			set_options		</SPAN>					(<SPAN=20
+class=3D"var-type">array</SPAN>&nbsp;<SPAN =
+class=3D"var-name">$options</SPAN>)
+			</DIV>
+<UL class=3D"parameters">
+  <LI><SPAN class=3D"var-type">array</SPAN><SPAN=20
+  class=3D"var-name">$options</SPAN><SPAN class=3D"var-description">: =
+array (1) {  =20
+  "encodekey" =3D&gt; 1 // =E9=BB=98=E8=AE=A4=E4=B8=BA1                  =
+  // 1:=20
+  =
+=E4=BD=BF=E7=94=A8urlencode=E7=BC=96=E7=A0=81key=EF=BC=9B0=EF=BC=9A=E4=B8=
+=8D=E4=BD=BF=E7=94=A8urlencode=E7=BC=96=E7=A0=81key =
+}</SPAN></LI></UL></DIV></DIV></DIV><A=20
+name=3D"sec-consts"></A>
+<DIV class=3D"info-box">
+<DIV class=3D"info-box-title">Class Constants</DIV>
+<DIV class=3D"nav-bar"><A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-description">Descrip=
+tion</A>=20
+|										<A=20
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-var-summary">Constan=
+ts</A>=20
+(<SPAN class=3D"disabled">details</SPAN>)																			| 									=
+<A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-method-summary">Meth=
+ods</A>=20
+(<A =
+href=3D"http://apidoc.sinaapp.com/sae/SaeKV.html#sec-methods">details</A>=
+)
+												</DIV>
+<DIV class=3D"info-box-body"><A id=3D"EMPTY_PREFIXKEY" =
+name=3D"constEMPTY_PREFIXKEY"><!-- --></A>
+<DIV class=3D"evenrow">
+<DIV class=3D"const-header"><SPAN class=3D"const-title"><SPAN=20
+class=3D"const-name">EMPTY_PREFIXKEY</SPAN>			 =3D <SPAN =
+class=3D"const-default">=20
+''</SPAN>			(line <SPAN class=3D"line-number"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a108"=20
+target=3D"_blank">108</A></SPAN>)		</SPAN></DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info from phpDoc block =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P =
+class=3D"short-description">=E7=A9=BAKEY=E5=89=8D=E7=BC=80</P></DIV><A =
+id=3D"MAX_KEY_LENGTH" name=3D"constMAX_KEY_LENGTH"><!-- --></A>
+<DIV class=3D"oddrow">
+<DIV class=3D"const-header"><SPAN class=3D"const-title"><SPAN=20
+class=3D"const-name">MAX_KEY_LENGTH</SPAN>			 =3D <SPAN =
+class=3D"const-default">=20
+200</SPAN>			(line <SPAN class=3D"line-number"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a123"=20
+target=3D"_blank">123</A></SPAN>)		</SPAN></DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info from phpDoc block =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P =
+class=3D"short-description">KEY=E7=9A=84=E6=9C=80=E5=A4=A7=E9=95=BF=E5=BA=
+=A6</P></DIV><A id=3D"MAX_MGET_SIZE" name=3D"constMAX_MGET_SIZE"><!-- =
+--></A>
+<DIV class=3D"evenrow">
+<DIV class=3D"const-header"><SPAN class=3D"const-title"><SPAN=20
+class=3D"const-name">MAX_MGET_SIZE</SPAN>			 =3D <SPAN =
+class=3D"const-default">=20
+32</SPAN>			(line <SPAN class=3D"line-number"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a113"=20
+target=3D"_blank">113</A></SPAN>)		</SPAN></DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info from phpDoc block =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P =
+class=3D"short-description">mget=E8=8E=B7=E5=8F=96=E7=9A=84=E6=9C=80=E5=A4=
+=A7KEY=E4=B8=AA=E6=95=B0</P></DIV><A id=3D"MAX_PKRGET_SIZE"=20
+name=3D"constMAX_PKRGET_SIZE"><!-- --></A>
+<DIV class=3D"oddrow">
+<DIV class=3D"const-header"><SPAN class=3D"const-title"><SPAN=20
+class=3D"const-name">MAX_PKRGET_SIZE</SPAN>			 =3D <SPAN =
+class=3D"const-default">=20
+100</SPAN>			(line <SPAN class=3D"line-number"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a118"=20
+target=3D"_blank">118</A></SPAN>)		</SPAN></DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info from phpDoc block =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P =
+class=3D"short-description">pkrget=E8=8E=B7=E5=8F=96=E7=9A=84=E6=9C=80=E5=
+=A4=A7KEY=E4=B8=AA=E6=95=B0</P></DIV><A id=3D"MAX_VALUE_LENGTH"=20
+name=3D"constMAX_VALUE_LENGTH"><!-- --></A>
+<DIV class=3D"evenrow">
+<DIV class=3D"const-header"><SPAN class=3D"const-title"><SPAN=20
+class=3D"const-name">MAX_VALUE_LENGTH</SPAN>			 =3D <SPAN =
+class=3D"const-default">=20
+4194304</SPAN>			(line <SPAN class=3D"line-number"><A =
+href=3D"http://apidoc.sinaapp.com/__filesource/fsource_sae__saekv.class.p=
+hp.html#a128"=20
+target=3D"_blank">128</A></SPAN>)		</SPAN></DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Info from phpDoc block =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D -->
+<P =
+class=3D"short-description">VALUE=E7=9A=84=E6=9C=80=E5=A4=A7=E9=95=BF=E5=BA=
+=A6 (4 * 1024 * 1024)</P></DIV></DIV></DIV>
+<P id=3D"credit" class=3D"notes">		Documentation generated by <A =
+href=3D"http://www.phpdoc.org/"=20
+target=3D"_blank">phpDocumentor 1.4.3</A></P></DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01CCDA32.D681C2F0
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://apidoc.sinaapp.com/media/stylesheet.css
+
+a {
+	color: rgb(51, 102, 153); text-decoration: none;
+}
+a:hover {
+	color: rgb(102, 153, 204); text-decoration: underline;
+}
+a:active {
+	color: rgb(102, 153, 204); text-decoration: underline;
+}
+body {
+	background: rgb(255, 255, 255);
+}
+body {
+	font-family: verdana, arial, helvetica, sans-serif , Georgia, Times New =
+Roman, Times, serif; font-size: 10pt;
+}
+table {
+	font-family: verdana, arial, helvetica, sans-serif , Georgia, Times New =
+Roman, Times, serif; font-size: 10pt;
+}
+p {
+	line-height: 140%;
+}
+li {
+	line-height: 140%;
+}
+a img {
+	border: 0px currentColor;
+}
+dd {
+	padding-left: 1em; margin-left: 0px;
+}
+.info-box {
+=09
+}
+.info-box-title {
+	margin: 1em 0em 0em; padding: 0.25em; border: 2px solid rgb(153, 153, =
+153); font-size: 14pt; font-weight: normal; background-color: rgb(204, =
+204, 255);
+}
+.info-box-body {
+	padding: 0.5em; border: 1px solid rgb(153, 153, 153);
+}
+.nav-bar {
+	margin: 0em 0em 1em; padding: 0.2em; text-align: right; font-size: 9pt; =
+white-space: nowrap;
+}
+.oddrow {
+	padding: 0.5em; border: 1px solid rgb(170, 170, 170); margin-bottom: =
+1em; background-color: rgb(248, 248, 248);
+}
+.evenrow {
+	padding: 0.5em; border: 1px solid rgb(170, 170, 170); margin-bottom: =
+1em;
+}
+.page-body {
+	margin: auto; max-width: 800px;
+}
+.tree dl {
+	margin: 0px;
+}
+.index-item-body {
+	margin-top: 0.5em; margin-bottom: 0.5em;
+}
+.index-item-description {
+	margin-top: 0.25em;
+}
+.index-item-details {
+	font-size: 9pt; font-style: italic; font-weight: normal;
+}
+.index-letter-section {
+	padding: 0.5em; border: 1px dotted rgb(153, 153, 153); margin-bottom: =
+1em; background-color: rgb(238, 238, 238);
+}
+.index-letter-title {
+	font-size: 12pt; font-weight: bold;
+}
+.index-letter-menu {
+	margin: 1em; text-align: center;
+}
+.index-letter {
+	font-size: 12pt;
+}
+.description {
+=09
+}
+.short-description {
+	color: rgb(102, 102, 102); font-weight: bold;
+}
+.tags {
+	color: rgb(102, 102, 102); padding-left: 0em; margin-left: 3em; =
+list-style-type: square;
+}
+.parameters {
+	padding-left: 0em; font-style: italic; margin-left: 3em; =
+list-style-type: square;
+}
+.redefinitions {
+	padding-left: 0em; font-size: 9pt; margin-left: 2em;
+}
+.package {
+=09
+}
+.package-title {
+	font-size: 14pt; font-weight: bold; border-bottom-color: black; =
+border-bottom-width: 1px; border-bottom-style: solid;
+}
+.package-details {
+	font-size: 100%;
+}
+.sub-package {
+	font-size: 120%; font-weight: bold;
+}
+.tutorial {
+	border-width: thin; border-color: rgb(0, 102, 255);
+}
+.tutorial-nav-box {
+	border: 1px solid rgb(153, 153, 153); width: 100%; background-color: =
+rgb(248, 248, 248);
+}
+.nav-button-disabled {
+	color: rgb(153, 153, 153);
+}
+.nav-button:active {
+	outline: rgb(153, 153, 153) solid 1px; text-decoration: none; =
+background-color: rgb(221, 221, 221);
+}
+.nav-button:focus {
+	outline: rgb(153, 153, 153) solid 1px; text-decoration: none; =
+background-color: rgb(221, 221, 221);
+}
+.nav-button:hover {
+	outline: rgb(153, 153, 153) solid 1px; text-decoration: none; =
+background-color: rgb(221, 221, 221);
+}
+.folder-title {
+	font-style: italic;
+}
+.field {
+	font-weight: bold;
+}
+.detail {
+	font-size: 9pt;
+}
+.notes {
+	font-size: 9pt; font-style: italic;
+}
+.separator {
+	height: 2px; background-color: rgb(153, 153, 153);
+}
+.warning {
+	color: rgb(255, 102, 0);
+}
+.disabled {
+	color: rgb(153, 153, 153); font-style: italic;
+}
+.line-number {
+=09
+}
+.class-table {
+	width: 100%;
+}
+.class-table-header {
+	text-align: left; border-bottom-color: rgb(102, 102, 102); =
+border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.class-name {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.method-summary {
+	padding-left: 1em; font-size: 9pt;
+}
+.method-header {
+=09
+}
+.method-definition {
+	margin-bottom: 0.3em;
+}
+.method-title {
+	font-weight: bold;
+}
+.method-name {
+	font-weight: bold;
+}
+.method-signature {
+	margin: 0.5em 0em; color: rgb(102, 102, 102); font-size: 100%;
+}
+.method-result {
+	font-style: italic;
+}
+.var-summary {
+	padding-left: 1em; font-size: 9pt;
+}
+.var-header {
+=09
+}
+.var-title {
+	margin-bottom: 0.3em;
+}
+.var-type {
+	font-style: italic;
+}
+.var-name {
+	font-weight: bold;
+}
+.var-default {
+=09
+}
+.var-description {
+	color: rgb(0, 0, 0); font-weight: normal;
+}
+.include-title {
+=09
+}
+.include-type {
+	font-style: italic;
+}
+.include-name {
+	font-weight: bold;
+}
+.const-title {
+=09
+}
+.const-name {
+	font-weight: bold;
+}
+.src-code {
+	padding: 1em; border: 1px solid rgb(51, 102, 153); background-color: =
+rgb(238, 238, 238);
+}
+.src-line {
+	font-family: "Courier New", Courier, monospace; font-weight: normal;
+}
+.src-comm {
+	color: green;
+}
+.src-id {
+=09
+}
+.src-inc {
+	color: rgb(0, 0, 255);
+}
+.src-key {
+	color: rgb(0, 0, 255);
+}
+.src-num {
+	color: rgb(204, 0, 0);
+}
+.src-str {
+	color: rgb(102, 204, 204);
+}
+.src-sym {
+	font-weight: bold;
+}
+.src-var {
+=09
+}
+.src-php {
+	font-weight: bold;
+}
+.src-doc {
+	color: rgb(0, 153, 153);
+}
+.src-doc-close-template {
+	color: rgb(0, 0, 255);
+}
+.src-doc-coretag {
+	color: rgb(0, 153, 255); font-weight: bold;
+}
+.src-doc-inlinetag {
+	color: rgb(0, 153, 255);
+}
+.src-doc-internal {
+	color: rgb(102, 153, 204);
+}
+.src-doc-tag {
+	color: rgb(0, 128, 204);
+}
+.src-doc-template {
+	color: rgb(0, 0, 255);
+}
+.src-doc-type {
+	font-style: italic;
+}
+.src-doc-var {
+	font-style: italic;
+}
+.tute-tag {
+	color: rgb(0, 153, 153);
+}
+.tute-attribute-name {
+	color: rgb(0, 0, 255);
+}
+.tute-attribute-value {
+	color: rgb(0, 153, 255);
+}
+.tute-entity {
+	font-weight: bold;
+}
+.tute-comment {
+	font-style: italic;
+}
+.tute-inline-tag {
+	color: rgb(99, 99, 17); font-weight: bold;
+}
+.authors {
+=09
+}
+.author {
+	font-style: italic; font-weight: bold;
+}
+.author-blurb {
+	margin: 0.5em 0em 0.5em 2em; font-size: 85%; font-style: normal; =
+font-weight: normal;
+}
+.example {
+	padding: 0.5em; border: 1px dashed rgb(153, 153, 153); =
+background-color: rgb(238, 238, 238);
+}
+*[class=3D'example'] {
+	line-height: 0.5em;
+}
+.listing {
+	padding: 0.5em; border: 1px dashed rgb(153, 153, 153); white-space: =
+nowrap; background-color: rgb(238, 238, 238);
+}
+*[class=3D'listing'] {
+	line-height: 0.5em;
+}
+.release-info {
+	margin: 1em 0em; font-size: 85%; font-style: italic;
+}
+.ref-title-box {
+=09
+}
+.ref-title {
+=09
+}
+.ref-purpose {
+	color: rgb(102, 102, 102); font-style: italic;
+}
+.ref-synopsis {
+=09
+}
+.title {
+	margin: 1em 0em 0em; padding: 0.25em; border: 2px solid rgb(153, 153, =
+153); font-weight: bold; background-color: rgb(204, 204, 255);
+}
+.cmd-synopsis {
+	margin: 1em 0em;
+}
+.cmd-title {
+	font-weight: bold;
+}
+.toc {
+	padding-left: 0em; margin-left: 2em;
+}
+
+------=_NextPart_000_0000_01CCDA32.D681C2F0--
